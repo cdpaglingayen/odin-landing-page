@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+}
+
+ul > li {
+  list-style: none;
+}
