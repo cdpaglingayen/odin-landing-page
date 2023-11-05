@@ -1,15 +1,98 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+}
+
+ul > li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 20px;
 }
 
 .nav-bar {
   display: flex;
   background-color: #1f2937;
+  justify-content: space-between;
+  padding: 20px;
   color: white;
 }
 
-ul > li {
-  list-style: none;
+.container-nav-hero {
+  background-color: #1f2937;
+}
+
+.hero {
+  padding: 25px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.random-info {
+  padding: 50px;
+  text-align: center;
+}
+
+.random-info .box {
+  border: solid 2px;
+  border-color: #3882f6;
+  border-radius: 1rem;
+  height: 115px;
+  width: 115px;
+  margin: auto;
+}
+
+.random-info .description {
+  margin-top: 10px;
+}
+
+.random-info .illustrations {
+  margin: 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.quotes {
+  background-color: #e5e7eb;
+  padding: 50px;
+  text-align: center;
+}
+
+.quotes .author {
+  text-align: end;
+  margin: 20px 0;
+}
+
+.cta {
+  padding: 50px;
+}
+
+.cta .inner-box {
+  margin: auto;
+  width: 600px;
+  height: 100px;
+  background-color: #3882f6;
+  padding: 25px;
+  border-radius: 12px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta .inner-text {
+  margin: auto 0;
+}
+
+.cta .inner-button {
+  margin: auto 0;
+}
+
+footer {
+  padding: 25px;
+  background-color: #1f2937;
+  text-align: center;
+  color: white;
 }
